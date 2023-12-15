@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-2">
+	
+				<ul class="nav flex-column">
+					<li class="nav-item" th:each="topic: ${topicList}">
+						<a th:text="${topic}" th:href="@{/home/topic/{topic}(topic=${topic})}"
+						class="xbtn-sm xbtn-primary">Active</a>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="col-10">
+
+				<span th:each="content: ${home}" class="card bg-light shadow">
+					<span class="list-inline-item" th:text="${content.content}"></span>
+
+					<a th:if="${content.active == 'N'}" th:href="@{/home/active/{id}(id=${content.id})}"
+						class="xbtn-sm xbtn-primary">Active</a>
+					<a th:if="${content.active == 'Y'}" th:href="@{/home/inactive/{id}(id=${content.id})}"
+						class="xbtn-sm xbtn-danger">Inactive</a>
+					<a th:href="@{/home/delete/{id}(id=${content.id})}"
+						class="xbtn-sm xbtn-danger">X</a>
+					<br />
+				</span>
+
+
+
+
+				<form th:action="@{/home/save}" th:object="${topic}" method="post">
+					<label for="username">Push new Topic:</label> <br>
+					<textarea  id="content" name="content" th:field="*{content}" cols="90" rows="10">
+						</textarea>
+					<br>
+					<input type="text" id="type" name="type" th:field="*{type}">
+					<button type="submit">Submit</button>
+				</form>
+				<br>
+				<a th:href="@{/home/clearAll}"
+						class="xbtn-sm xbtn-danger">Clear All</a>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+</body>
+
+</html>

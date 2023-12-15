@@ -1,0 +1,60 @@
+<request>
+	<systemID>MFL</systemID>
+	<icuID>2</icuID>
+	<planID>3736</planID>
+	<operatorExecutingID>DKVB</operatorExecutingID>
+	<taxID>897560000</taxID>
+	<name>BOBBY SPONSOR</name>
+	<addressLine1>1055 BROADWAY</addressLine1>
+	<addressLine2/>
+	<addressLine3/>
+	<cityName>KANSAS CITY</cityName>
+	<stateCode>24</stateCode>
+	<countryCode>444</countryCode>
+	<zipCode>640110000</zipCode>
+	<foreignZipCode/>
+	<entityType>C</entityType>
+	<allowPlanSponsorUserMaintenance>N</allowPlanSponsorUserMaintenance>
+	<sentFromEmailAddress>sent@email.com</sentFromEmailAddress>
+	<replyToEmailAddress>reply@email.com</replyToEmailAddress>
+	<contact1EmailAddress>contact12@email.com</contact1EmailAddress>
+	<contact2EmailAddress>contact22@email.com</contact2EmailAddress>
+	<contact3EmailAddress>contact32@email.com</contact3EmailAddress>
+	<eDistributionEmailAddress>edist2@email.com</eDistributionEmailAddress>
+	<isLegacyEDistributionNotificationActive>N</isLegacyEDistributionNotificationActive>
+	<contactList>
+		<contactItem>
+			<contactType>P</contactType>
+			<contactFirstName>FREDDY</contactFirstName>
+			<contactMiddleName/>
+			<contactLastName>SMITHVILLE</contactLastName>
+			<contactPhoneNumber>8165551212</contactPhoneNumber>
+			<contactPhoneType>D</contactPhoneType>
+			<contactFaxNumber>8165551215</contactFaxNumber>
+			<contactFaxType>D</contactFaxType>
+			<contactAuthorizationMemo>10</contactAuthorizationMemo>
+		</contactItem>
+		<contactItem>
+			<contactType>S</contactType>
+			<contactFirstName>PATTYBELL</contactFirstName>
+			<contactMiddleName/>
+			<contactLastName>NORRIS</contactLastName>
+			<contactPhoneNumber>8165557444</contactPhoneNumber>
+			<contactPhoneType>D</contactPhoneType>
+			<contactFaxNumber>8168889421</contactFaxNumber>
+			<contactFaxType>D</contactFaxType>
+			<contactAuthorizationMemo>3</contactAuthorizationMemo>
+		</contactItem>
+		<contactItem>
+			<contactType>A</contactType>
+			<contactFirstName>FABFIRST</contactFirstName>
+			<contactMiddleName/>
+			<contactLastName>AdLAST</contactLastName>
+			<contactPhoneNumber>8163215634</contactPhoneNumber>
+			<contactPhoneType>D</contactPhoneType>
+			<contactFaxNumber>0</contactFaxNumber>
+			<contactFaxType>D</contactFaxType>
+			<contactAuthorizationMemo>11</contactAuthorizationMemo>
+		</contactItem>
+	</contactList>
+</request>

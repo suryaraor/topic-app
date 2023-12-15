@@ -1,0 +1,42 @@
+{
+           "name": "Acme Corp  U1",
+            "addressLine1": "123 Main  U1",
+            "addressLine2": "Apt 567 U1",
+            "cityName": "Metropolis U1",
+            "stateCode": 12,
+            "countryCode": 444,
+            "zipCode": "98765",
+            "foreignZipCode": "56789",
+            "sentFromEmailAddress": "u1noreply@acmecorp.com",
+            "replyToEmailAddress": "u1reply@acmecorp.com",
+            "contact1EmailAddress": "u1john.doe@email.com",
+            "contact2EmailAddress": "u1jane.smith@email.com",
+            "contact3EmailAddress": "u1bob.jones@email.com",
+            "planLocationCode": 2,
+            "periodicStatementCopies": 0,
+            "dailyStatementCopies": 0,
+            "contactList": [
+        {
+            "contactType": "P",
+            "contactFirstName": "nam U1",
+            "contactMiddleName": "middle U1",
+            "contactLastName": "11NORRIS U1",
+            "contactPhoneNumber": "1113215634",
+            "contactPhoneType": "F",
+            "contactFaxNumber": "1111889421",
+            "contactFaxType": "F",
+            "contactAuthorizationMemoID": "0"
+        },
+        {
+            "contactType": "S",
+            "contactFirstName": "name U1",
+            "contactMiddleName": "middle U1",
+            "contactLastName": "11NORRI U1",
+            "contactPhoneNumber": "2222215634",
+            "contactPhoneType": "F",
+            "contactFaxNumber": "2222889421",
+            "contactFaxType": "F",
+            "contactAuthorizationMemoID": "0"
+        }
+    ]
+}
